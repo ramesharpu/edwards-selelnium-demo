@@ -11,4 +11,22 @@
 			<package name="test" />
 		</packages>
 	</test> <!-- Test -->
+	<test thread-count="5" name="firefox Test">
+		<parameter name="browser" value="firefox"></parameter>
+		<packages>
+			<package name="test" />
+		</packages>
+	</test> <!-- Test -->
+	<test thread-count="5" name="edge Test">
+		<parameter name="browser" value="edge"></parameter>
+		<packages>
+			<package name="test" />
+		</packages>
+	</test> <!-- Test -->
+	<test thread-count="5" name="safari Test">
+		<parameter name="browser" value="safari"></parameter>
+		<packages>
+			<package name="test" />
+		</packages>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
