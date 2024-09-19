@@ -37,4 +37,12 @@ public class LoginValidation extends BaseTest{
 		obj.loginWithCredentials(username, password);
 	}
 
+	//Dev-2 changes ==> dy
+	@Parameters({"validUsername", "invalidPassword"})
+	@Test
+	public void validUsernameInvalidPasswordTest(String username, String password) {
+		Login obj = new Login(driver);
+		obj.loginWithCredentials(username, password);
+	}
+
 }
