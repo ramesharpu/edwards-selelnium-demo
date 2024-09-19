@@ -24,7 +24,7 @@ public class LoginValidation extends BaseTest{
 	}
 	
 	@Parameters({"validUsername", "validPassword"})
-	@Test //dev2-changes for stash
+	@Test //dev-1 & dev-2 ==> changes for stash
 	public void validUsernameValidPasswordTest(String username, String password) {
 		Login obj = new Login(driver);
 		obj.loginWithCredentials(username, password);
